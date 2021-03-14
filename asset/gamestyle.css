@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+} 
+
+.main-box{
+    background: linear-gradient(to right,black 44%,white 100%);
+    width: 100%;
+    height: 100vh;
+}
+.main-box{
+    color: white;
+
+}
+.n1{
+    position: absolute;
+    left: 5%;
+    color: black;
+}
+.n2{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    color: black;
+}
+.n3{
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    color: black;
+}
+.n4{
+    position: absolute;
+    left: 9%;
+    top: 30%;
+    color: black;
+}
+.n5{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    color: black;
+}
+.n6{
+    position: absolute;
+    left: 55%;
+    top: 70%;
+    color: black;
+}
+.n7{
+    position: absolute;
+    left: 35%;
+    top: 85%;
+    color: black;
+}
+.n8{
+    position: absolute;
+    left: 25%;
+    top: 65%;
+    color: black;
+}
+.n9{
+    position: absolute;
+    left: 15%;
+    top: 75%;
+    color: black;
+}
+.n0{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    color: black;
+}
+.n1:hover{
+    background-color: yellow;
+    border-radius: 25%;
+}
+.n6:hover{
+    background-color: yellow;
+    border-radius: 25%;  
+}
+.n2:hover{
+    background-color: yellow;
+    border-radius: 25%;  
+}
+.n3:hover{
+    background-color: yellow;
+    border-radius: 25%;  
+}
+.n4:hover{
+    background-color: yellow;
+    border-radius: 25%;  
+}
+.n5:hover{
+    background-color: yellow;
+    border-radius: 25%;  
+}
+.n7:hover{
+    background-color: yellow;
+    border-radius: 25%;  
+}
+.n8:hover{
+    background-color: yellow;
+    border-radius: 25%;  
+}
+.n9:hover{
+    background-color: yellow;
+    border-radius: 25%;  
+}
+.n0:hover{
+    background-color: yellow;
+    border-radius: 25%;  
+}
+.main-box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 4vh;
+}
+input{
+    height: 3vh;
+    line-height: 3vh;
+}
+.submit{
+    line-height: 4vh;
+}
